@@ -1,0 +1,109 @@
+/* styles.css */
+
+/* Estilos del footer */
+.main-footer {
+    background-color: #333333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .main--container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Estilos de la sección superior del footer */
+  .main-footer-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  /* Sección de redes sociales */
+  .main-footer-row1 {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .title-footer span {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #ff9800;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .main-footer-redes {
+    display: flex;
+    justify-content: space-between;
+    max-width: 220px;
+    margin-top: 10px;
+  }
+  
+  .main-footer-img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+  }
+  
+  .main-footer-img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Descripción personal */
+  .main-footer-row2 {
+    flex: 2;
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+  .main-footer-desc {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 10px;
+    color: #ccc;
+  }
+  
+  /* Parte inferior del footer */
+  .main-footer--lower {
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    font-size: 0.9rem;
+    color: #bbb;
+  }
+  
+  .main-footer--lower a {
+    color: #ff9800;
+    text-decoration: none;
+  }
+  
+  .main-footer--lower a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 768px) {
+    .main-footer-up {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .main-footer-row1, 
+    .main-footer-row2 {
+      margin: 0;
+      padding: 10px 0;
+    }
+  
+    .main-footer-redes {
+      justify-content: center;
+      margin-top: 20px;
+    }
+  
+    .main-footer-row2 {
+      text-align: center;
+    }
+  }
+  
