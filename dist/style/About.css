@@ -1,0 +1,79 @@
+#about{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main--container{
+    top: 5rem;
+    padding: 1rem;
+    color: #ffffff;
+}
+
+.title--mai{
+    padding: 1rem;
+}
+
+.title__main{
+    margin-top: 5rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.info__main{
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+}
+
+/* boton */
+.btn--med {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+}
+
+/* about contenido */
+.about__content{
+    margin: 0 6.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem;
+    color: #ffffff;
+}
+
+
+.about__content-main-title{
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+}
+
+.about__content--details-p{
+    font-size: 1rem;
+    color: #666;
+    max-width: 60rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+body.dark .about__content--details-p{
+    color: #e6e2e2;
+}
+/* Habilidades */
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills_skill{
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.849);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #666;
+}
