@@ -10,7 +10,7 @@
     color: #ffffff;
 }
 
-.title--mai{
+.title--main{
     padding: 1rem;
 }
 
@@ -37,7 +37,8 @@
 
 /* about contenido */
 .about__content{
-    margin: 0 6.5rem;
+    padding-left: 1rem;
+    margin: 0 3rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 5rem;
@@ -49,11 +50,12 @@
     font-weight: 700;
     font-size: 2.8rem;
     margin-bottom: 3rem;
+    text-align: center;
 }
 
 .about__content--details-p{
     font-size: 1rem;
-    color: #666;
+    color: #ffffff;
     max-width: 60rem;
     line-height: 1.7;
     margin-bottom: 1rem;
@@ -62,18 +64,178 @@ body.dark .about__content--details-p{
     color: #e6e2e2;
 }
 /* Habilidades */
-.skills{
-    display: flex;
-    flex-wrap: wrap;
+.about_skill {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 50%;
+    perspective: 1000px;
 }
 
-.skills_skill{
-    padding: 1rem 2rem;
-    margin-bottom: 1.5rem;
-    margin-right: 1.5rem;
+.skills {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    transform-style: preserve-3d;
+}
+
+.skills_skill {
+    color: #fff;
+    padding: 10px;
     font-size: 1rem;
-    background: rgba(255, 255, 255, 0.849);
-    border-radius: 5px;
-    font-weight: 600;
-    color: #666;
+    font-weight: bold;
+    text-align: center;
+    animation: float 8s ease-in-out infinite;
+}
+
+
+/* Animación de flotación */
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0); 
+    }
+}
+
+/* Animaciones con diferentes tiempos de delay */
+.skills_skill:nth-child(11) {
+    animation-delay: 0s;
+}
+.skills_skill:nth-child(12) {
+    animation-delay: 0.2s;
+}
+.skills_skill:nth-child(5) {
+    animation-delay: 0.4s;
+}
+.skills_skill:nth-child(4) {
+    animation-delay: 0.6s;
+}
+.skills_skill:nth-child(6) {
+    animation-delay: 0.8s;
+}
+.skills_skill:nth-child(3) {
+    animation-delay: 1s;
+}
+.skills_skill:nth-child(10) {
+    animation-delay: 1.2s;
+}
+.skills_skill:nth-child(1) {
+    animation-delay: 1.4s;
+}
+.skills_skill:nth-child(7) {
+    animation-delay: 1.6s;
+}
+.skills_skill:nth-child(2) {
+    animation-delay: 1.8s;
+}
+.skills_skill:nth-child(8) {
+    animation-delay: 2s;
+}
+.skills_skill:nth-child(9) {
+    animation-delay: 2.2s;
+}
+
+.HTML {
+    width: 70px;
+    height: 70px;
+    background-image: url('/public/assets/Logos/Logo_HTML.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.CSS {
+    width: 70px;
+    height: 70px;
+    background-image: url('/public/assets/Logos/Logo_CSS.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.JavaScript {
+    width: 70px;
+    height: 70px;
+    background-image: url('/public/assets/Logos/Logo_JavaScript.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.React {
+    width: 70px;
+    height: 70px;
+    background-image: url('/public/assets/Logos/Logo_React.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Node {
+    width: 70px;
+    height: 70px;
+    background-image: url('/public/assets/Logos/Logo_Node.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Angular {
+    width: 70px;
+    height: 70px;
+    background-image: url('/public/assets/Logos/Logo_Angular.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.MongoDB {
+    width: 70px;
+    height: 70px;
+    background-image: url('/public/assets/Logos/Logo_MongoDB.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Bootstrap {
+    width: 70px;
+    height: 70px;
+    background-image: url('/public/assets/Logos/Logo_Bootstrap.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.GIT {
+    width: 70px;
+    height: 70px;
+    background-image: url('/public/assets/Logos/Logo_GitHub.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.SQLBasic {
+    width: 70px;
+    height: 70px;
+    background-image: url('/public/assets/Logos/Logo_MySQL.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Veu{
+    width: 70px;
+    height: 70px;
+    background-image: url('/public/assets/Logos/Logo_Veu.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.JAVA{
+    width: 70px;
+    height: 70px;
+    background-image: url('/public/assets/Logos/Logo_JAVA.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }

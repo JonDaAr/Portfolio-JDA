@@ -4,7 +4,7 @@ import '/dist/style/style.css';
 const StarField = () => {
   useEffect(() => {
     const starField = document.querySelector(".star-field");
-    const starCount = 5; // Número de estrellas fugaces
+    const starCount = 3; // Número de estrellas fugaces
     const fixedStarCount = 100; // Número de estrellas fijas
 
     // Crear estrellas fugaces

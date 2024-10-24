@@ -21,9 +21,9 @@ const Projects = () => {
               />
             </div>
             <div className="projects-row-cont">
-              <h3 className="projects-row-cont-title">Portfolio</h3>
+              <h3 className="projects-row-cont-title">Ajedrez en JavaScript</h3>
               <p className="projects-row-cont-desc">
-                Este proyecto no solo muestra mis habilidades en desarrollo web con HTML, CSS y JavaScript, sino que también refleja mi enfoque en el diseño responsivo y la usabilidad. Cada línea de código representa desafíos superados y aprendizajes. Explora la elegancia de un diseño intuitivo, una carga optimizada y un código bien estructurado.
+              Desarrollé un juego de ajedrez completamente funcional en JavaScript, con movimientos válidos de piezas, detección de jaque y jaque mate. Implementé la lógica del juego, ofreciendo una experiencia interactiva y fluida.
               </p>
               <a 
                 className="btn btn--med btn--theme dynamicBgClr" 
