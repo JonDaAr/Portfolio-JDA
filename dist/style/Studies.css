@@ -1,0 +1,48 @@
+.timeline {
+    margin: 20px 0;
+    width: 70%;
+    margin: auto;
+}
+
+.timeline-container {
+    position: relative;
+    margin: 20px 0;
+    padding: 10px 0;
+    border-left: 2px solid #4CAF50;
+}
+
+.timeline-item {
+    position: relative;
+    margin: 20px 0;
+    padding-left: 30px;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.timeline-content {
+    background-color: #f9f9f9;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content h3 {
+    margin: 0;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.timeline-content p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 0.9em;
+}

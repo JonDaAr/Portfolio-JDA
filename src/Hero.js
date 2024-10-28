@@ -26,7 +26,6 @@ const Hero = () => {
         <h1>¡Hola, soy Jonatan Arroyo!</h1>
         <p className="animated-text">{text}</p>
       </div>
-      
     </div>
   );
 };
