@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  mode: 'development',
+  mode: 'production', // Cambia a producción para el despliegue
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -17,25 +17,18 @@ module.exports = {
         },
       },
       {
-        test: /\.css$/, // Para estilos CSS
+        test: /\.css$/,
         use: ['style-loader', 'css-loader'],
       },
       {
-        test: /\.(png|jpg|jpeg|gif)$/i, // Para imágenes PNG, JPG, etc.
+        test: /\.(png|jpg|jpeg|gif)$/i,
         type: 'asset/resource',
       },
       {
-        test: /\.svg$/, // Para archivos SVG
-        use: 'asset/resource', // Loader para manejar SVG
+        test: /\.svg$/,
+        type: 'asset/resource',
       },
     ],
   },
-  devServer: {
-    static: {
-      directory: path.join(__dirname, 'dist'), // Ruta para servir archivos estáticos
-    },
-    compress: true,
-    port: 3000,
-    open: true,
-  },
 };
+
