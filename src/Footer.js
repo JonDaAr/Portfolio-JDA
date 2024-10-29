@@ -12,62 +12,29 @@ const Footer = () => {
               <span>Redes</span>
             </h2>
             <div className="main-footer-redes">
-              <a 
-                target="_blank" 
-                rel="noreferrer" 
-                href="https://www.linkedin.com/in/jonatan-arroyo-b0ab19265/"
-              >
-                <img 
-                  className="main-footer-img" 
-                  src="/img/img5.png" 
-                  alt="Arroyo Jonatan Linkedin" 
-                />
-              </a>
-              <a 
-                target="_blank" 
-                rel="noreferrer" 
-                href="https://github.com/JonDaAr"
-              >
-                <img 
-                  className="main-footer-img" 
-                  src="/img/img4.png" 
-                  alt="Arroyo Jonatan GITHUB" 
-                />
-              </a>
-              <a 
-                target="_blank" 
-                rel="noreferrer" 
-                href="https://wa.me/1141611903"
-              >
-                <img 
-                  className="main-footer-img" 
-                  src="/img/img7.png" 
-                  alt="Arroyo Jonatan Whatsapp" 
-                />
-              </a>
-              <a 
-                target="_blank" 
-                rel="noreferrer" 
-                href="https://www.instagram.com/"
-              >
-                <img 
-                  className="main-footer-img" 
-                  src="/img/img5.png" 
-                  alt="Arroyo Jonatan Instagram" 
-                />
-              </a>
+              <div className='float'>
+                <a href="https://www.linkedin.com/in/jonatan-david-arroyo/" target="_blanck" rel="LinkedIn">
+                  <div className='LinkedIn'></div>
+                </a>
+              </div>
+              <div className='float'>
+                <a href='https://github.com/JonDaAr' target="_blanck" rel='GitHub'>
+                  <div className='GitHub'></div>
+                </a>
+              </div>
+              <div className='float'>
+                <a href='https://www.instagram.com/deivid_jota?igsh=YzljYTk1ODg3Zg==' target='_blanck' rel='Instagram'>
+                  <div className='Instagram'></div>
+                </a>
+              </div>
+              <div className='float'>
+                <a href='https://wa.me/1141611903' target='_blanck' rel='whatsapp'>
+                  <div className='Whatsapp'></div>
+                </a>
+              </div>
             </div>
           </div>
-          
-          {/* Descripción personal */}
-          <div className="main-footer-row2">
-            <h2 className="title-footer">Jonatan Arroyo</h2>
-            <p className="main-footer-desc">
-              Desarrollador web frontend especializado en la creación de interfaces atractivas y funcionales para sitios y aplicaciones. Enfocado en impulsar el éxito global del producto, combino habilidades en HTML, CSS y JavaScript para superar expectativas estéticas y de usabilidad. Mi objetivo es elevar la calidad del frontend para contribuir al éxito integral del proyecto.
-            </p>
-          </div>
         </div>
-        
         {/* Parte inferior del footer */}
         <div className="main-footer--lower">
           &copy; {new Date().getFullYear()} | Made by <a rel="noreferrer" target="_blank" href="">Jonatan Arroyo</a>

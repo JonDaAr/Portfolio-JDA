@@ -4,13 +4,12 @@ body {
     background: linear-gradient(to bottom, #0a0314, #060e3a, #000000);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
-#root>.navbar{
+.conteiner_Nav{
+  width: 100%;
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  color: white;
 }
+
 
 .star-field {
     position: fixed;
@@ -20,6 +19,7 @@ body {
     top: 0;
     left: 0;
     pointer-events: none;
+    z-index: -99999;
 }
 
 .star {
@@ -43,7 +43,7 @@ body {
     opacity: 1;
 }
 100% {
-    transform: translate(50vw, 100vh); /* Ajusta el movimiento de las estrellas */
+    transform: translate(50vw, 100vh); 
     opacity: 0;
 }
 }
@@ -53,11 +53,10 @@ h2,h1{
 }
 
 .navbar {
-  margin-top: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 2rem;
+  padding: 1rem 10px 2rem 2rem;
   border: 1px solid rgba(73, 73, 73, 0.212);
   border-radius: 1rem;
   backdrop-filter: blur(10px);
@@ -116,12 +115,14 @@ h2,h1{
   text-align: center;
 }
 
+
 .hero-content h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
   font-weight: bold;
 }
 
+/* Animación del texto */
 .animated-text {
   width: 70%;
   margin: auto;
@@ -129,7 +130,6 @@ h2,h1{
   font-family: 'Courier New', Courier, monospace;
 }
 
-/* Animación del texto */
 @keyframes blink {
   0%, 100% {
     border-right-color: transparent;
@@ -146,32 +146,4 @@ h2,h1{
   animation: blink 1s step-end infinite;
 }
 
-/* Animación para rotar el fondo */
-@keyframes rotateBackground {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(30deg);
-  }
-}
 
-/* Clase que aplica la animación */
-.rotate-bg {
-  animation: rotateBackground 5s linear;
-  background-size: 200%; /* Para asegurarnos de que el fondo cubre el área visible */
-}
-@keyframes travelForward {
-  0% {
-    transform: scale(0.1) translateZ(-1000px); /* Imagen pequeña y lejos */
-    opacity: 0; /* Empieza invisible */
-  }
-  50% {
-    transform: scale(0.5) translateZ(-500px); /* Acercándose a mitad del camino */
-    opacity: 1; /* Empieza a ser visible */
-  }
-  100% {
-    transform: scale(1) translateZ(0); /* Imagen a tamaño normal y completamente cerca */
-    opacity: 1; /* Completamente visible */
-  }
-}

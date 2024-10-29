@@ -15,7 +15,6 @@ function AboutMe() {
                 </div>
             </div>
             <div className="about__content">
-                    <h3 className="about__content-main-title">Conóceme!</h3>
                 <div className="about__content-main">
                     <div className="imagen__Foto"></div>
                     <div className="about__content--details">

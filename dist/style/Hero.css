@@ -13,11 +13,96 @@
     }
   }
   
-  .Image__dub {
-    width: 300px;
-    height: 300px;
-    opacity: 0; /* Empieza invisible */
-    animation: moveForward 5s ease-in-out forwards;
+  .hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
     position: relative;
-    margin-top: 20px;
   }
+  
+  .hero-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .hero-icons div {
+    width: 30px;
+    height: 30px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Iconos específicos con background-image */
+  .LinkedIn {    
+    background-image: url('/public/assets/Icon/Icon_LinkedIn.png');
+}
+  
+  .GitHub {
+    background-image: url('/public/assets/Icon/Icon_GitHub.png');
+  }
+  
+  .Instagram {
+    background-image: url('/public/assets/Icon/Icon_Instagram.png');
+  }
+  
+  .Whatsapp {
+    background-image: url('/public/assets/Icon/Icon_Whatsapp.png');
+  }
+  /* Animación de hover */
+.hero-icons div:hover {
+  transform: scale(1.1);
+}
+
+.hero-content {
+  margin-left: 60px; /* Espacio para el contenido principal */
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.animated-text {
+  width: 70%;
+  margin: auto;
+  font-size: 1.5rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+@keyframes float {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-20px);
+  }
+  100% {
+      transform: translateY(0); 
+  }
+}
+.float{
+  animation: float 8s ease-in-out infinite;
+}
+
+.float:nth-child(1) {
+  animation-delay: 3s;
+}
+.float:nth-child(3) {
+  animation-delay: 2s;
+}
+.float:nth-child(2) {
+  animation-delay: 4s;
+}
+.float:nth-child(0) {
+  animation-delay: 1s;
+}

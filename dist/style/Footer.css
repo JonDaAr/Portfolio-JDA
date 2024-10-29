@@ -2,7 +2,6 @@
 
 /* Estilos del footer */
 .main-footer {
-    background-color: #333333;
     color: #fff;
     padding: 40px 20px;
     text-align: center;
@@ -16,18 +15,13 @@
   /* Estilos de la sección superior del footer */
   .main-footer-up {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     margin-bottom: 30px;
   }
   
   /* Sección de redes sociales */
-  .main-footer-row1 {
-    flex: 1;
-    margin-right: 20px;
-  }
-  
   .title-footer span {
     font-size: 1.8rem;
     font-weight: 600;
