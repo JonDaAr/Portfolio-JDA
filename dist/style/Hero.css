@@ -55,9 +55,6 @@
     background-image: url('/public/assets/Icon/Icon_Instagram.png');
   }
   
-  .Whatsapp {
-    background-image: url('/public/assets/Icon/Icon_Whatsapp.png');
-  }
   /* Animación de hover */
 .hero-icons div:hover {
   transform: scale(1.1);
@@ -97,9 +94,7 @@
 .float:nth-child(1) {
   animation-delay: 3s;
 }
-.float:nth-child(3) {
-  animation-delay: 2s;
-}
+
 .float:nth-child(2) {
   animation-delay: 4s;
 }
