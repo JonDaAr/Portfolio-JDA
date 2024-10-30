@@ -39,11 +39,6 @@ const Hero = () => {
         <div className='Instagram'></div>
           </a>
         </div>
-        <div className='float'>
-          <a href='https://wa.me/1141611903' target='_blanck' rel='whatsapp'>
-        <div className='Whatsapp'></div>
-          </a>
-        </div>
       </div>
       <div className="hero-content">
         <h1>¡Hola, soy Jonatan Arroyo!</h1>
