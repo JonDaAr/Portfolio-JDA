@@ -56,10 +56,10 @@ h2,h1{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 10px 2rem 2rem;
+  padding: 1rem 2rem 1rem 2rem;
   border: 1px solid rgba(73, 73, 73, 0.212);
   border-radius: 1rem;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(50px);
   position: fixed;
   width: 90%;
   top: 0;

@@ -82,9 +82,12 @@
 }
 
 .imagen__Foto{
-    width: 30%;
+    width: 400px;
+    max-width: 600px;
     height: 350px;
+    max-height: 600px;
     background-image: url('/public/assets/Arroyo_Jonatan.jpg');
-    background-size: cover;
+    background-size: center;
+    background-repeat: no-repeat;
     z-index: 99;
 }

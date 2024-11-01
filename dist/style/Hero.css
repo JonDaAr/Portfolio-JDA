@@ -51,10 +51,6 @@
     background-image: url('/public/assets/Icon/Icon_GitHub.png');
   }
   
-  .Instagram {
-    background-image: url('/public/assets/Icon/Icon_Instagram.png');
-  }
-
   /* Animación de hover */
 .hero-icons div:hover {
   transform: scale(1.1);

@@ -3,26 +3,26 @@ import Studies from '../Study';
 
 const studies = [
   {
-    title: 'Desarrollo en Web',
+    title: 'Tecnicatura en Desarrollo en Web',
     institution: 'Universidad Nacional de La Matanza',
     date: 'Abril 2023 - Presente',
   },
   {
     title: 'Programación Web Full Stack MERN',
     institution: 'JP Morgan | EducacionIT | Fundación Pescar',
-    date: 'Marzo 2024 - Presente',
+    date: 'Marzo 2024 - Octubre 2024',
     description: 'Formación en habilidades interpersonales (81 hs)',
   },
   {
     title: 'Análisis de Datos',
     institution: 'Google',
-    date: 'Julio 2024 - Presente',
+    date: 'Julio 2024 - Octubre 2024',
     description: 'Competencias en hojas de cálculo, SQL, R, y herramientas de visualización',
   },
   {
     title: 'SQL y Python',
     institution: 'ARTECH | Capacitación Profesional',
-    date: 'Mayo 2024 - Presente',
+    date: 'Mayo 2024 - Septiembre 2024',
     description: 'Conocimientos en PowerBI también incluidos',
   },
   {
@@ -32,7 +32,7 @@ const studies = [
     description: 'Habilidades en Java y Spring Framework',
   },
   {
-    title: 'Tecnologías Web',
+    title: 'Desarrollo Web',
     institution: 'MindHub',
     date: 'Agosto 2023 - Noviembre 2023',
     description: 'Tecnologías: HTML5, CSS, JavaScript, JSON, Bootstrap, y Vue.js',
