@@ -23,6 +23,10 @@ const Hero = () => {
 
   return (
     <div className="hero">
+      <div className="hero-content">
+        <h1>¡Hola, soy Jonatan Arroyo!</h1>
+        <p className="animated-text">{text}</p>
+      </div>
       <div className="hero-icons">
         <div className='float'>
           <a href="https://www.linkedin.com/in/jonatan-david-arroyo/" target="_blanck" rel="LinkedIn">
@@ -34,21 +38,8 @@ const Hero = () => {
         <div className='GitHub'></div>
           </a>
         </div>
-        <div className='float'>
-          <a href='https://www.instagram.com/deivid_jota?igsh=YzljYTk1ODg3Zg==' target='_blanck' rel='Instagram'>
-        <div className='Instagram'></div>
-          </a>
-        </div>
-        <div className='float'>
-          <a href='https://wa.me/1141611903' target='_blanck' rel='whatsapp'>
-        <div className='Whatsapp'></div>
-          </a>
-        </div>
       </div>
-      <div className="hero-content">
-        <h1>¡Hola, soy Jonatan Arroyo!</h1>
-        <p className="animated-text">{text}</p>
-      </div>
+      
     </div>
   );
 };

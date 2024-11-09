@@ -13,12 +13,7 @@ const Projects = () => {
         <div className="projects-content">
           <div className="project-row">
             <div className="projects-img-cont">
-              <img 
-                src="/img/porfolio-sin-fondo.png" 
-                alt="Software Screenshot" 
-                className="projects__row-img" 
-                loading="lazy" 
-              />
+              <div className="img_project"></div>
             </div>
             <div className="projects-row-cont">
               <h3 className="projects-row-cont-title">Ajedrez en JavaScript</h3>
@@ -27,7 +22,7 @@ const Projects = () => {
               </p>
               <a 
                 className="btn btn--med btn--theme dynamicBgClr" 
-                href="/project-1" 
+                href="/public/assets/projects/chess-game.jpg" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >

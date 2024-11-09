@@ -4,7 +4,7 @@ import '/dist/style/Footer.css'
 const Footer = () => {
   return (
     <footer className="main-footer">
-      <div className="main--container">
+     
         <div className="main-footer-up">
           {/* Sección de redes sociales */}
           <div className="main-footer-row1">
@@ -22,16 +22,6 @@ const Footer = () => {
                   <div className='GitHub'></div>
                 </a>
               </div>
-              <div className='float'>
-                <a href='https://www.instagram.com/deivid_jota?igsh=YzljYTk1ODg3Zg==' target='_blanck' rel='Instagram'>
-                  <div className='Instagram'></div>
-                </a>
-              </div>
-              <div className='float'>
-                <a href='https://wa.me/1141611903' target='_blanck' rel='whatsapp'>
-                  <div className='Whatsapp'></div>
-                </a>
-              </div>
             </div>
           </div>
         </div>
@@ -39,7 +29,7 @@ const Footer = () => {
         <div className="main-footer--lower">
           &copy; {new Date().getFullYear()} | Made by <a rel="noreferrer" target="_blank" href="">Jonatan Arroyo</a>
         </div>
-      </div>
+      
     </footer>
   );
 };

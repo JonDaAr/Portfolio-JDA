@@ -19,46 +19,21 @@
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 30px;
+    flex-direction: row;
   }
   
   /* Sección de redes sociales */
+  .main-footer-redes{
+    width: 100%;
+    display: flex;
+    justify-content: center
+  }
   .title-footer span {
     font-size: 1.8rem;
     font-weight: 600;
     color: #ff9800;
     display: block;
     margin-bottom: 10px;
-  }
-  
-  .main-footer-redes {
-    display: flex;
-    justify-content: space-between;
-    max-width: 220px;
-    margin-top: 10px;
-  }
-  
-  .main-footer-img {
-    width: 40px;
-    height: 40px;
-    transition: transform 0.3s ease;
-  }
-  
-  .main-footer-img:hover {
-    transform: scale(1.1);
-  }
-  
-  /* Descripción personal */
-  .main-footer-row2 {
-    flex: 2;
-    text-align: left;
-    margin-left: 20px;
-  }
-  
-  .main-footer-desc {
-    font-size: 1rem;
-    line-height: 1.6;
-    margin-top: 10px;
-    color: #ccc;
   }
   
   /* Parte inferior del footer */
@@ -80,24 +55,33 @@
   
   /* Responsivo */
   @media (max-width: 768px) {
-    .main-footer-up {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .main-footer-row1, 
-    .main-footer-row2 {
-      margin: 0;
-      padding: 10px 0;
-    }
-  
-    .main-footer-redes {
-      justify-content: center;
-      margin-top: 20px;
-    }
-  
-    .main-footer-row2 {
-      text-align: center;
-    }
+
   }
   
+  .LinkedIn {    
+    width: 100px;
+    height: 100px;
+    background-image: url('/public/assets/Icon/Icon_LinkedIn.png');
+    background-repeat: no-repeat;
+}
+  
+  .GitHub {
+    width: 50px;
+    height: 50px;
+    background-image: url('/public/assets/Icon/Icon_GitHub.png');
+    background-repeat: no-repeat;
+  }
+  @keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0); 
+    }
+  }
+  .float{
+    animation: float 8s ease-in-out infinite;
+  }

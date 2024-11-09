@@ -3,7 +3,7 @@ import '../dist/style/Tecnico.css'
 
 const Tecnico = () => {
     return (
-        <div>
+        <div className="container_Tec">
             <h3 className="about__content-main-title"> Mis Habilidades</h3>
             <div className="about_skill">
                 <div className="skills">
