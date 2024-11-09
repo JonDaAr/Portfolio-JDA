@@ -3,7 +3,9 @@
     width: 70%;
     margin: auto;
 }
-
+H2{
+    color: white;
+}
 .timeline-container {
     position: relative;
     margin: 20px 0;
