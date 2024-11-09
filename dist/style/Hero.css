@@ -99,3 +99,22 @@
 .float:nth-child(0) {
   animation-delay: 1s;
 }
+
+@media (max-width: 500px) {
+  .hero {
+    flex-direction: column; /* Cambia la dirección a columna en pantallas pequeñas */
+  }
+
+  .hero-content {
+    margin-left: 0; /* Remueve el margen izquierdo */
+    margin-bottom: 20px; /* Añade un margen inferior para separar el texto de los íconos */
+  }
+
+  .hero-icons {
+    position: static; /* Resetea la posición absoluta */
+    transform: translateY(0); /* Remueve la traslación vertical */
+    align-items: center; /* Centra los íconos */
+    flex-direction: row;
+    justify-content: center;
+  }
+}

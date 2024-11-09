@@ -176,4 +176,8 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+@media (max-width: 500px) {
+    .container_Tec{
+        height: 750px;
+    }
+}

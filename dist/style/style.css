@@ -79,6 +79,7 @@ body {
   color: white;
   text-decoration: none;
   transition: color 0.3s ease;
+  z-index: 99999;
 }
 
 .navbar-right li a:hover {
