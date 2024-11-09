@@ -48,9 +48,18 @@
   }
   
   .projects-img-cont {
-    flex: 1;
-    max-width: 45%;
-    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    max-width: 45%;    
+  }
+  .img_project{
+    
+    background-image: url("/public/assets/projects/chess-game.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 300px;
+
   }
   
   .projects__row-img {
@@ -131,3 +140,9 @@
     }
   }
   
+  @media (max-width: 500px){
+    .img_project{
+      width: 300px;
+      height: 250px;
+    }
+  }
