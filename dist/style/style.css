@@ -96,7 +96,7 @@ body {
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 993px) {
   /* Muestra el botón de hamburguesa en dispositivos móviles */
   .menu-toggle {
     display: block;

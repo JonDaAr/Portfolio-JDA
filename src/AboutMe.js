@@ -1,5 +1,6 @@
 import React from "react";
 import "../dist/style/About.css";
+import "../dist/style/Gallery.css";
 
 function AboutMe() {
     return (
@@ -40,6 +41,12 @@ function AboutMe() {
                     </div>
                     
                 </div>
+            </div>
+            <div className="Container_Photografi">
+            <h3 className="about__content-main-title">Intereses Personales: Fotografía</h3>
+      <p className="about__content--details-p">
+      La fotografía es un hobby que me permite capturar momentos y explorar la creatividad visual. Me interesa especialmente el trabajo con paisajes y la edición, buscando siempre un balance entre técnica y narrativa. A continuación, te presento una selección de algunas de mis fotos favoritas que muestran mi enfoque en este arte.
+      </p>
             </div>
             
         </section>
