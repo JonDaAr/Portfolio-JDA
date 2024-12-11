@@ -9,24 +9,34 @@ import Footer from './Footer.js';
 import '../dist/style/style.css';
 import Study from './Arrray/Studies.js';
 import Gallery from './Gallery.js';
-
+import Section from './Section.js'; // Nuevo componente para animaciones
 
 const App = () => {
-
   return (
     <div>
       <StarField />
       <Navbar />
-      <Hero />
-      <Tecnico />
-      <AboutMe />
-      <Gallery/>
-      <Study />
-      <Projects />
+      <Section>
+        <Hero />
+      </Section>
+      <Section>
+        <Tecnico />
+      </Section>
+      <Section>
+        <AboutMe />
+      </Section>
+      <Section>
+        <Gallery />
+      </Section>
+      <Section>
+        <Study />
+      </Section>
+      <Section>
+        <Projects />
+      </Section>
       <Footer />
     </div>
   );
 };
-
 
 export default App;

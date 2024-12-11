@@ -22,13 +22,36 @@ const Projects = () => {
               </p>
               <a 
                 className="btn btn--med btn--theme dynamicBgClr" 
-                href="/public/assets/projects/chess-game.jpg" 
+                href="https://github.com/JonDaAr/Ajedrez" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 Ver
               </a>
             </div>
+            
+          </div>
+        </div>
+
+        <div className="projects-content">
+          <div className="project-row">
+            <div className="projects-img-cont">
+              <div className="img_project2"></div>
+            </div>
+            <div className="projects-row-cont">
+              <h3 className="projects-row-cont-title">Turnito</h3>
+              <p className="projects-row-cont-desc">
+              Turnito es una plataforma online diseñada para gestionar turnos de manera eficiente. Con una interfaz intuitiva, permite a los emprendedores organizar sus agendas, automatizar recordatorios y brindar una mejor experiencia a sus clientes.              </p>
+              <a 
+                className="btn btn--med btn--theme dynamicBgClr" 
+                href="https://github.com/JonDaAr/Turnito" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Ver
+              </a>
+            </div>
+            
           </div>
         </div>
       </div>

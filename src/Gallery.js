@@ -12,7 +12,10 @@ import imagen7 from '/public/assets/gallery/imagen27.png';
 
 const Gallery = () => {
   return (
+    
+
     <div className="container">
+      
       <div className="box">
         <img src={imagen7} alt="imagen1"/>
       </div>
